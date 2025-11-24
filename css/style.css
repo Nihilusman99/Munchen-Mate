@@ -497,20 +497,32 @@ textarea.form-input {
         display: flex;
         flex-direction: row;
         width: 100%;
-        justify-content: space-between;
-        margin-top: 0;
-        padding: 0 10px;
+        justify-content: flex-start; /* Align to start so we can scroll */
+        overflow-x: auto; /* ALLOW SCROLLING */
+        padding: 0;
+        margin: 0;
+        -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
+
+        /* Hide the ugly scrollbar */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none;  /* IE */
+    }
+
+    .nav-menu::-webkit-scrollbar { 
+        display: none; /* Chrome/Safari */
     }
 
     .nav-item {
-        flex-direction: column; /* Icon top, Text bottom */
+        flex-direction: column;
         padding: 8px 5px;
-        font-size: 0.7rem;
+        font-size: 0.65rem; /* Slightly smaller text */
         gap: 4px;
         justify-content: center;
-        border-left: none; /* Remove desktop indicator */
-        border-top: 3px solid transparent; /* New mobile indicator */
-        flex: 1; /* Distribute space evenly */
+        border-left: none;
+        border-top: 3px solid transparent;
+
+        flex: 0 0 20%; /* Each item takes 20% of screen width (5 items visible) */
+        min-width: 75px; /* Minimum tappable size */
         text-align: center;
     }
 
@@ -564,3 +576,4 @@ textarea.form-input {
         min-height: 300px;
     }
 }
+
