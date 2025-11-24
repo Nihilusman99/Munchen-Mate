@@ -1,4 +1,4 @@
-const CACHE_NAME = 'munchen-mate-v1';
+const CACHE_NAME = 'munchen-mate-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -30,4 +30,5 @@ self.addEventListener('fetch', (event) => {
       return response || fetch(event.request);
     })
   );
+
 });
