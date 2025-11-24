@@ -1,0 +1,442 @@
+[
+  {
+    "id": "marienplatz",
+    "name": "Marienplatz",
+    "category": "Landmark",
+    "tags": ["center", "outdoor", "photo", "must_see"],
+    "description": "The 'Point Zero' of Munich. Home to the Glockenspiel and the central Christmas Market (Nov 24 - Dec 24).",
+    "location": "City Center (Altstadt)",
+    "price": "Free",
+    "image": "images/marienplatz.jpg"
+  },
+  {
+    "id": "neues_rathaus_tower",
+    "name": "Neues Rathaus (Tower)",
+    "category": "Viewpoint",
+    "tags": ["view", "landmark", "indoor"],
+    "description": "Visit the tower for a panoramic view of the city. Don't miss the Juristische Bibliothek inside.",
+    "location": "Marienplatz",
+    "price": "€7.00",
+    "image": "https://placehold.co/600x400/555/FFFFFF?text=Rathaus+Tower"
+  },
+  {
+    "id": "frauenkirche",
+    "name": "Frauenkirche",
+    "category": "Landmark",
+    "tags": ["church", "view", "indoor"],
+    "description": "Munich's iconic cathedral. The South Tower offers a 360-degree view.",
+    "location": "Frauenplatz 12",
+    "price": "Free (Tower €7.50)",
+    "image": "images/frauenkirche.jpg"
+  },
+  {
+    "id": "residenz",
+    "name": "Münchner Residenz",
+    "category": "Museum",
+    "tags": ["history", "royal", "indoor", "rain_safe"],
+    "description": "The royal palace complex including the Treasury and Cuvilliés Theatre. Plan for 2.5 - 3.5 hours.",
+    "location": "Residenzstraße 1",
+    "price": "€9.00 - €13.00",
+    "image": "https://placehold.co/600x400/D4AF37/FFFFFF?text=Munich+Residenz"
+  },
+  {
+    "id": "hofbrauhaus",
+    "name": "Hofbräuhaus",
+    "category": "Gastronomy",
+    "tags": ["beer", "food", "history", "indoor", "lively"],
+    "description": "The world's most famous beer hall. Great for traditional music and a 'Mass' of beer.",
+    "location": "Platzl 9",
+    "price": "Moderate",
+    "image": "https://placehold.co/600x400/c2a050/FFFFFF?text=Hofbrauhaus"
+  },
+  {
+    "id": "deutsches_museum",
+    "name": "Deutsches Museum",
+    "category": "Museum",
+    "tags": ["science", "kids", "indoor", "rain_safe", "monday_open"],
+    "description": "World's largest science museum. Perfect for rainy days. Plan for 4-6 hours. OPEN MONDAYS.",
+    "location": "Museumsinsel 1",
+    "price": "€15.00",
+    "image": "https://placehold.co/600x400/4a6b8a/FFFFFF?text=Deutsches+Museum"
+  },
+  {
+    "id": "englischer_garten",
+    "name": "Englischer Garten",
+    "category": "Park",
+    "tags": ["nature", "walk", "outdoor", "summer", "surfing"],
+    "description": "One of the world's largest urban parks. See the surfers at the Eisbachwelle (near Haus der Kunst).",
+    "location": "Center to North Munich",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/2a4d36/FFFFFF?text=Englischer+Garten"
+  },
+  {
+    "id": "nymphenburg",
+    "name": "Nymphenburg Palace",
+    "category": "Palace",
+    "tags": ["royal", "park", "monday_open", "outdoor"],
+    "description": "Baroque summer residence. The main palace is open Mondays, but park pavilions close in winter.",
+    "location": "Schloss Nymphenburg 1",
+    "price": "€8.00 - €15.00",
+    "image": "https://placehold.co/600x400/a89f91/FFFFFF?text=Nymphenburg"
+  },
+  {
+    "id": "bmw_welt_museum",
+    "name": "BMW Welt & Museum",
+    "category": "Museum",
+    "tags": ["cars", "tech", "indoor", "rain_safe", "monday_open"],
+    "description": "BMW Welt is free and futuristic. The Museum (paid) showcases history. Good for rainy days.",
+    "location": "Am Olympiapark 2",
+    "price": "Welt: Free / Museum: €10",
+    "image": "https://placehold.co/600x400/0066b1/FFFFFF?text=BMW+Welt"
+  },
+  {
+    "id": "alte_pinakothek",
+    "name": "Alte Pinakothek",
+    "category": "Art Museum",
+    "tags": ["art", "history", "indoor", "monday_closed", "sunday_deal"],
+    "description": "Old Masters (Rubens, Dürer). CLOSED MONDAYS. Entry is only €1 on Sundays.",
+    "location": "Barer Str. 27",
+    "price": "€7 (or €1 Sunday)",
+    "image": "https://placehold.co/600x400/8B0000/FFFFFF?text=Alte+Pinakothek"
+  },
+  {
+    "id": "pinakothek_moderne",
+    "name": "Pinakothek der Moderne",
+    "category": "Art Museum",
+    "tags": ["art", "design", "indoor", "monday_closed", "sunday_deal"],
+    "description": "Modern art, design, and architecture. CLOSED MONDAYS. Open late (8pm) on Thursdays. €1 on Sundays.",
+    "location": "Barer Str. 40",
+    "price": "€10 (or €1 Sunday)",
+    "image": "https://placehold.co/600x400/EEEEEE/333?text=Pinakothek+Moderne"
+  },
+  {
+    "id": "viktualienmarkt",
+    "name": "Viktualienmarkt",
+    "category": "Market",
+    "tags": ["food", "outdoor", "beer_garden", "lunch"],
+    "description": "Daily outdoor farmers' market with a beer garden. Great for lunch. Closed Sundays.",
+    "location": "Just off Marienplatz",
+    "price": "Free to browse",
+    "image": "https://placehold.co/600x400/3d6e2d/FFFFFF?text=Viktualienmarkt"
+  },
+  {
+    "id": "olympiapark",
+    "name": "Olympiapark",
+    "category": "Park",
+    "tags": ["nature", "history", "outdoor", "view"],
+    "description": "Site of the 1972 Olympics. Great views from the Olympic Hill. Hosts the Märchenbazar Christmas market.",
+    "location": "Spiridon-Louis-Ring",
+    "price": "Free (Tower costs extra)",
+    "image": "https://placehold.co/600x400/4CAF50/FFFFFF?text=Olympiapark"
+  },
+  {
+    "id": "therme_erding",
+    "name": "Therme Erding",
+    "category": "Wellness",
+    "tags": ["relax", "indoor", "swimming", "winter_escape"],
+    "description": "World's largest spa complex. The best place to escape the cold weather. Accessible via S2 (Altenerding).",
+    "location": "Erding (S2 Train)",
+    "price": "€40 - €60",
+    "image": "https://placehold.co/600x400/00acc1/FFFFFF?text=Therme+Erding"
+  },
+  {
+    "id": "xmas_market_marienplatz",
+    "name": "Marienplatz Christmas Market",
+    "category": "Christmas Market",
+    "tags": ["christmas", "winter", "market", "outdoor", "classic"],
+    "description": "The traditional original. Nov 24 - Dec 24. Best for romantic atmosphere and Glühwein.",
+    "location": "Marienplatz",
+    "price": "Free entry",
+    "image": "https://placehold.co/600x400/b71c1c/FFFFFF?text=Xmas+Marienplatz"
+  },
+  {
+    "id": "xmas_market_residenz",
+    "name": "Residenz Christmas Village",
+    "category": "Christmas Market",
+    "tags": ["christmas", "winter", "market", "outdoor", "cozy"],
+    "description": "Located in the Kaiserhof courtyard of the palace. Nov 17 - Dec 22. Very atmospheric.",
+    "location": "Residenzstraße 1",
+    "price": "Free entry",
+    "image": "https://placehold.co/600x400/b71c1c/FFFFFF?text=Xmas+Residenz"
+  },
+  {
+    "id": "xmas_market_tollwood",
+    "name": "Tollwood Winter Festival",
+    "category": "Festival",
+    "tags": ["christmas", "winter", "festival", "organic", "alternative"],
+    "description": "Alternative festival at Theresienwiese. Organic food, crafts, and shows. Nov 25 - Dec 23.",
+    "location": "Theresienwiese",
+    "price": "Free entry",
+    "image": "https://placehold.co/600x400/8E24AA/FFFFFF?text=Tollwood"
+  },
+  {
+    "id": "pfarrkirchen_stadtplatz",
+    "name": "Pfarrkirchen Town Square",
+    "category": "Historic",
+    "tags": ["inn-salzach", "architecture", "old-town", "historic"],
+    "description": "One of the most beautiful squares in Lower Bavaria, lined with colorful Inn-Salzach style houses and arcaded façades from the 16th–17th century.",
+    "location": "Stadtplatz, Pfarrkirchen",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/D32F2F/FFFFFF?text=Stadtplatz"
+  },
+  {
+    "id": "altes_rathaus_pfarrkirchen",
+    "name": "Altes Rathaus",
+    "category": "Historic",
+    "tags": ["gothic", "renaissance", "museum", "town-hall"],
+    "description": "Former town hall built around 1500 with a Gothic core and octagonal Renaissance tower. Houses the Tourist Information, Council Chamber, and Local History Museum.",
+    "location": "Stadtplatz, Pfarrkirchen",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/6A1B9A/FFFFFF?text=Altes+Rathaus"
+  },
+  {
+    "id": "wimmer_ross",
+    "name": "Wimmer-Ross",
+    "category": "Public Art",
+    "tags": ["sculpture", "symbol", "hans-wimmer"],
+    "description": "Iconic bronze horse statue cast in 1966 by Hans Wimmer. Symbolizes the region’s historic horse-breeding culture.",
+    "location": "City Center, Pfarrkirchen",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/8E24AA/FFFFFF?text=Wimmer+Ross"
+  },
+  {
+    "id": "pfarrkirchen_stadtbrunnen",
+    "name": "Town Fountain (Stadtbrunnen)",
+    "category": "Historic",
+    "tags": ["fountain", "easter", "advent", "tradition"],
+    "description": "Fountain commemorating Pfarrkirchen’s city status (1862). Decorated with Easter garlands and lit as an Advent crown in winter.",
+    "location": "Stadtplatz, Pfarrkirchen",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/1976D2/FFFFFF?text=Stadtbrunnen"
+  },
+  {
+    "id": "ringallee_pfarrkirchen",
+    "name": "Ringallee",
+    "category": "Nature",
+    "tags": ["avenue", "chestnut-trees", "walking"],
+    "description": "A unique one-kilometer chestnut-lined avenue following the old city walls, planted in 1876.",
+    "location": "Ringallee, Pfarrkirchen",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/388E3C/FFFFFF?text=Ringallee"
+  },
+  {
+    "id": "roter_turm",
+    "name": "Roter Turm",
+    "category": "Historic",
+    "tags": ["medieval", "tower", "fortification"],
+    "description": "Polygonal brick tower once part of the medieval defensive wall. One of the five original city towers.",
+    "location": "City Wall Area, Pfarrkirchen",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/C62828/FFFFFF?text=Roter+Turm"
+  },
+  {
+    "id": "stadtpfarrkirche_pfarrkirchen",
+    "name": "Stadtpfarrkirche",
+    "category": "Religious",
+    "tags": ["church", "gothic", "tower", "heritage"],
+    "description": "Catholic parish church with roots in the Romanesque era, expanded in the 15th century. Features a 67-meter tower and a copper-silver sculpture of the Risen Christ.",
+    "location": "Pfarrkirchen Center",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/283593/FFFFFF?text=Stadtpfarrkirche"
+  },
+  {
+    "id": "gartlberg_pilgrimage_church",
+    "name": "Wallfahrtskirche Gartlberg",
+    "category": "Religious",
+    "tags": ["baroque", "pilgrimage", "church", "viewpoint"],
+    "description": "Twin-towered Baroque pilgrimage church built between 1661 and 1715. Offers extensive views and includes the 15 Stations of the Cross footpath.",
+    "location": "Gartlberg, Pfarrkirchen",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/512DA8/FFFFFF?text=Gartlberg"
+  },
+  {
+    "id": "heimatmuseum_pfarrkirchen",
+    "name": "Heimatmuseum Pfarrkirchen",
+    "category": "Museum",
+    "tags": ["museum", "local-history", "archaeology"],
+    "description": "Local history museum with archaeological, folkloric, and craft objects. Limited opening hours: Tuesdays 14:00–16:00.",
+    "location": "Altes Rathaus, Pfarrkirchen",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/00796B/FFFFFF?text=Heimatmuseum"
+  },
+  {
+    "id": "hans_reiffenstuel_haus",
+    "name": "Hans-Reiffenstuel-Haus",
+    "category": "Culture",
+    "tags": ["art", "exhibitions", "nature-exhibit"],
+    "description": "Cultural center dedicated to painter Hans Reiffenstuel. Hosts free art exhibitions and features a permanent display of native animals.",
+    "location": "Pfarrkirchen",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/0097A7/FFFFFF?text=Reiffenstuel-Haus"
+  },
+  {
+    "id": "trabrennbahn_pfarrkirchen",
+    "name": "Trabrennbahn Pfarrkirchen",
+    "category": "Sports",
+    "tags": ["sulky", "horse-racing", "events", "pentecost"],
+    "description": "Bavaria’s first sulky race track and the oldest in the region. Hosts annual Pentecost races including the Bavarian Breeders Race.",
+    "location": "Pfarrkirchen",
+    "price": "Varies by event",
+    "image": "https://placehold.co/600x400/5D4037/FFFFFF?text=Trabrennbahn"
+  },
+  {
+    "id": "rottauen_nature_area",
+    "name": "Rottauen",
+    "category": "Nature",
+    "tags": ["wetlands", "walking", "nature-path", "sculpture"],
+    "description": "Recreational wetlands along the Rott River with educational nature paths. Contains the 'Loreley of the Rott' sculpture.",
+    "location": "Pfarrkirchen",
+    "price": "Free",
+    "image": "https://placehold.co/600x400/4CAF50/FFFFFF?text=Rottauen"
+  },
+  {
+    "id": "pfarrkirchen_adventure_pool",
+    "name": "Pfarrkirchen Adventure Pool",
+    "category": "Leisure",
+    "tags": ["swimming", "water-slides", "family"],
+    "description": "Family-friendly pool complex with double waterslides, a wild-water river channel, and children's pools.",
+    "location": "Pfarrkirchen",
+    "price": "Paid",
+    "image": "https://placehold.co/600x400/0288D1/FFFFFF?text=Adventure+Pool"
+  },
+  {
+    "id": "rottaler_volksfest",
+    "name": "Rottaler Volksfest",
+    "category": "Festival",
+    "tags": ["festival", "beer-tent", "fair", "april"],
+    "description": "Local folk festival from April 9–13, 2025 with a heated beer tent and free entrance.",
+    "location": "Pfarrkirchen Fairgrounds",
+    "price": "Free entry",
+    "image": "https://placehold.co/600x400/F57C00/FFFFFF?text=Volksfest"
+  },
+  {
+    "id": "bruckbaam_dish",
+    "name": "Bruckbaam",
+    "category": "Food",
+    "tags": ["regional-food", "potato", "bavarian"],
+    "description": "Unique regional dish: thick noodles made from potato dough, fried in clarified butter and served with sauerkraut or apple sauce.",
+    "location": "Rottal-Inn Region",
+    "price": "Varies",
+    "image": "https://placehold.co/600x400/795548/FFFFFF?text=Bruckbaam"
+  },
+  {
+    "id": "altes_magistrat_restaurant",
+    "name": "Altes Magistrat",
+    "category": "Restaurant",
+    "tags": ["historic", "tavern", "bavarian-food"],
+    "description": "Historic tavern offering Bavarian cuisine and local specialties.",
+    "location": "Pfarrkirchen",
+    "price": "€€",
+    "image": "https://placehold.co/600x400/6D4C41/FFFFFF?text=Altes+Magistrat"
+  },
+   {
+    "id": "bad_birnbach_rottal_terme",
+    "name": "Bad Birnbach – Rottal Terme",
+    "category": "Wellness",
+    "tags": ["spa", "thermal", "sauna", "relaxation", "rottal"],
+    "description": "A rural Bavarian spa town known for the extensive Rottal Terme thermal complex, including the Vitarium and saunas. Easy day trip from Pfarrkirchen.",
+    "location": "Bad Birnbach, Bavaria",
+    "price": "Entry from €16–€30 depending on area",
+    "image": "https://placehold.co/600x400/3F51B5/FFFFFF?text=Bad+Birnbach"
+  },
+  {
+    "id": "burghausen_castle",
+    "name": "Burghausen – World’s Longest Castle",
+    "category": "Historic",
+    "tags": ["castle", "medieval", "views", "photography", "austria-border"],
+    "description": "A medieval town dominated by the world’s longest castle (1,051 m). Beautiful ridge walk, old town, and lake scenery.",
+    "location": "Burghausen, Bavaria",
+    "price": "Castle grounds free, museums €6–€10",
+    "image": "https://placehold.co/600x400/6A1B9A/FFFFFF?text=Burghausen"
+  },
+  {
+    "id": "braunau_inn",
+    "name": "Braunau am Inn",
+    "category": "Town",
+    "tags": ["austria", "historic", "border-town", "architecture"],
+    "description": "A quiet Austrian town across the bridge from Simbach. Known for its medieval center and the spacious Austrian-style Stadtplatz.",
+    "location": "Braunau am Inn, Austria",
+    "price": "Free to explore",
+    "image": "https://placehold.co/600x400/00838F/FFFFFF?text=Braunau"
+  },
+  {
+    "id": "passau_three_rivers",
+    "name": "Passau – The City of Three Rivers",
+    "category": "City",
+    "tags": ["rivers", "baroque", "cathedral", "fortress", "photography"],
+    "description": "A baroque city where the Danube, Inn, and Ilz rivers meet. Home to St. Stephen’s Cathedral with the world’s largest organ and the hilltop fortress Veste Oberhaus.",
+    "location": "Passau, Bavaria",
+    "price": "Most sights free; cathedral concerts €6–€10",
+    "image": "https://placehold.co/600x400/3949AB/FFFFFF?text=Passau"
+  },
+  {
+    "id": "landshut_altstadt",
+    "name": "Landshut – The Brick Gothic Capital",
+    "category": "City",
+    "tags": ["gothic", "castle", "church", "architecture", "historic"],
+    "description": "A wealthy medieval city with a stunning gabled Altstadt. Highlights include St. Martin’s Church (tallest brick tower in the world) and Trausnitz Castle.",
+    "location": "Landshut, Bavaria",
+    "price": "Free to explore; castle & church tours €4–€8",
+    "image": "https://placehold.co/600x400/C62828/FFFFFF?text=Landshut"
+  },
+  {
+    "id": "salzburg_alpine_capital",
+    "name": "Salzburg",
+    "category": "City",
+    "tags": ["austria", "baroque", "mozart", "alps", "fortress"],
+    "description": "An imperial-feeling Alpine city known for Mozart, the Hohensalzburg Fortress, elegant baroque streets, and monastery beer halls.",
+    "location": "Salzburg, Austria",
+    "price": "Old town free; fortress & museums €10–€30",
+    "image": "https://placehold.co/600x400/2E7D32/FFFFFF?text=Salzburg"
+  },
+  {
+    "id": "regensburg_unesco",
+    "name": "Regensburg – UNESCO Medieval City",
+    "category": "City",
+    "tags": ["unesco", "medieval", "roman", "architecture", "history"],
+    "description": "Germany’s best-preserved large medieval city, home to the 12th-century Stone Bridge, Roman ruins, and the world-famous Wurstkuchl sausage kitchen.",
+    "location": "Regensburg, Bavaria",
+    "price": "Free to explore; special attractions €5–€12",
+    "image": "https://placehold.co/600x400/283593/FFFFFF?text=Regensburg"
+  },
+  {
+    "id": "bavarian_forest_national_park",
+    "name": "Bavarian Forest National Park",
+    "category": "Nature",
+    "tags": ["forest", "national-park", "hiking", "winter", "treetop-walk"],
+    "description": "A deep primeval forest with wildlife, hiking trails, and the famous Baumwipfelpfad tree-top walk in Neuschönau.",
+    "location": "Bavarian Forest, Eastern Bavaria",
+    "price": "Most areas free; Treetop Walk €10–€15",
+    "image": "https://placehold.co/600x400/1B5E20/FFFFFF?text=Bavarian+Forest"
+  },
+  {
+    "id": "chiemsee_herrenchiemsee",
+    "name": "Lake Chiemsee – Herrenchiemsee & Fraueninsel",
+    "category": "Nature",
+    "tags": ["lake", "boats", "palace", "ludwig", "islands"],
+    "description": "Bavaria’s largest lake with boat trips to Herreninsel (Versailles-style palace) and the peaceful monastic Fraueninsel.",
+    "location": "Chiemsee, Bavaria",
+    "price": "Boat €12–€20; palace tour extra",
+    "image": "https://placehold.co/600x400/0277BD/FFFFFF?text=Chiemsee"
+  },
+  {
+    "id": "scharding_silberzeile",
+    "name": "Schärding – The Baroque Jewel",
+    "category": "Town",
+    "tags": ["austria", "baroque", "colorful-houses", "historic"],
+    "description": "Known for the Silberzeile, a row of brightly colored baroque merchant houses. Quiet, picturesque river town south of Passau.",
+    "location": "Schärding, Austria",
+    "price": "Free to explore",
+    "image": "https://placehold.co/600x400/AD1457/FFFFFF?text=Schaerding"
+  },
+  {
+    "id": "geinberg_spa",
+    "name": "Geinberg Spa Resort",
+    "category": "Wellness",
+    "tags": ["spa", "thermal", "austria", "wellness", "relaxation"],
+    "description": "A premium Austrian thermal resort with warm lagoon pools, saunas, and a tropical-style saltwater area.",
+    "location": "Geinberg, Austria",
+    "price": "Day ticket €35–€60",
+    "image": "https://placehold.co/600x400/00897B/FFFFFF?text=Geinberg"
+  }
+]

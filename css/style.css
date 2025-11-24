@@ -1,0 +1,461 @@
+/* --- CSS STYLES --- */
+:root {
+    --bg-sidebar: #F5F5F5;
+    --bg-main: #E0FAFA;
+    --text-primary: #000000;
+    --card-bg: #FFFFFF;
+    --accent-teal: #008080; /* The dark teal text/button color */
+    --accent-light: #D0F0F0; /* Input backgrounds */
+    --accent-font: 'VT323', monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-main);
+}
+
+/* --- SIDEBAR --- */
+.sidebar {
+    width: 250px;
+    background-color: var(--bg-sidebar);
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.brand {
+    padding: 20px;
+    font-family: var(--accent-font);
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+.brand-icon {
+    background: var(--accent-teal);
+    color: white;
+    padding: 0px 8px;
+    border-radius: 4px;
+    font-size: 1.8rem;
+}
+
+.nav-menu {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.nav-item {
+    padding: 12px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #555;
+    font-size: 0.95rem;
+    transition: background 0.2s;
+}
+
+.nav-item:hover { background-color: #e0e0e0; }
+
+.nav-item.active { 
+    background-color: #e8e8e8; 
+    font-weight: bold; 
+    color: black; 
+    border-left: 4px solid var(--accent-teal);
+}
+
+.nav-item .material-icons { font-size: 1.2rem; color: #777; }
+.nav-item.active .material-icons { color: #333; }
+
+/* GitHub link at bottom */
+.sidebar-footer {
+    margin-top: auto;
+    padding: 20px;
+    font-size: 0.85rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.sidebar-footer:hover { color: #000; }
+
+
+/* --- MAIN CONTENT AREA --- */
+.main-content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+/* Header Styles */
+.page-header {
+    margin-bottom: 30px;
+}
+
+.page-header h1 {
+    font-family: var(--accent-font);
+    font-size: 3rem;
+    color: var(--accent-teal);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.page-header p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* --- VIEW: DASHBOARD (GRID) --- */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border: 1px solid #ccc;
+    transition: transform 0.2s;
+    cursor: pointer;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card:hover { transform: translateY(-3px); }
+
+.card-title-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.card-icon { font-size: 1.5rem; }
+.card h3 { font-family: var(--accent-font); font-size: 1.8rem; letter-spacing: 0.5px; }
+.card p { color: #666; font-size: 0.9rem; line-height: 1.4; }
+
+
+/* --- VIEW: SUGGESTIONS (IMAGE GRID) --- */
+.suggestions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.suggestion-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden; /* Keeps image inside corners */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    border: 1px solid #ddd;
+}
+.suggestion-card:hover { transform: translateY(-4px); }
+
+.suggestion-img-container {
+    width: 100%;
+    height: 180px;
+    background-color: #ddd;
+}
+
+.suggestion-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.suggestion-content {
+    padding: 20px;
+}
+
+.suggestion-title {
+    font-family: var(--accent-font);
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.suggestion-desc {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    min-height: 60px; /* Align buttons */
+}
+
+.suggestion-link {
+    color: var(--accent-teal);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.suggestion-link:hover { text-decoration: underline; }
+
+
+/* --- SHARED LAYOUT (ITINERARY, PACKING, TRANSLATOR, EXPENSES) --- */
+.itinerary-layout {
+    display: flex;
+    gap: 30px;
+    min-height: 500px;
+}
+
+/* Left Column: Form */
+.preferences-panel {
+    flex: 0 0 350px; /* Fixed width for form */
+    background: white;
+    border: 1px solid #ccc;
+    padding: 25px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel-title {
+    font-family: var(--accent-font);
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: black;
+}
+.panel-subtitle {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+}
+
+.form-group { margin-bottom: 20px; }
+.form-label { display: block; font-weight: bold; font-size: 0.9rem; margin-bottom: 8px; color: #333; }
+
+.form-input, .form-select {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--accent-light);
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+textarea.form-input {
+    resize: vertical;
+    font-family: sans-serif;
+}
+
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.checkbox-item, .radio-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-create {
+    margin-top: auto;
+    background-color: var(--accent-teal);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s;
+    text-align: center;
+}
+.btn-create:hover { background-color: #006666; }
+
+/* Right Column: Placeholder */
+.result-panel {
+    flex: 1;
+    border: 2px dashed #999;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    padding: 20px;
+}
+
+/* Override for Expenses Panel specifically */
+.expense-panel {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block; /* Normal block display, not flex center */
+    padding: 0; /* Reset padding */
+}
+
+.placeholder-text {
+    font-family: var(--accent-font);
+    font-size: 2rem;
+    color: #666;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* --- EXPENSES TABLE STYLES --- */
+.expense-table-container {
+    padding: 25px;
+}
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.expense-table th {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #666;
+    border-bottom: 1px solid #eee;
+    padding: 10px 5px;
+    font-weight: normal;
+}
+.expense-table td {
+    padding: 15px 5px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 0.95rem;
+}
+.expense-total {
+    text-align: right;
+    font-family: var(--accent-font);
+    font-size: 2rem;
+    margin-top: 30px;
+    padding-right: 10px;
+}
+.delete-btn {
+    color: #ff6b6b;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.delete-btn:hover { color: #ff0000; }
+
+/* --- VIEW: TRANSPORT --- */
+.transport-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.info-card-title {
+    font-family: var(--accent-font);
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.transport-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+/* Utility to switch views */
+.view-section { display: none; animation: fadeIn 0.3s ease-in-out; }
+.view-section.active { display: block; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- MAP POUCH STYLES --- */
+.map-thumbnail {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+    padding: 10px;
+}
+.map-thumbnail:hover {
+    background: var(--accent-light);
+    border-color: var(--accent-teal);
+    transform: translateY(-2px);
+}
+.map-icon {
+    color: var(--accent-teal);
+    margin-bottom: 5px;
+}
+
+/* Map Modal (Full Screen Viewer) */
+.map-modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.map-modal.active {
+    display: flex;
+}
+
+/* The Image itself */
+#map-viewer-img {
+    max-width: 95%;
+    max-height: 90%;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background: white;
+}
+
+.close-map-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.map-caption {
+    color: #ccc;
+    margin-top: 10px;
+    font-family: var(--accent-font);
+    letter-spacing: 1px;
+}

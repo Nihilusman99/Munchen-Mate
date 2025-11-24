@@ -1,0 +1,556 @@
+[
+  {
+    "category": "Essentials",
+    "en": "Hello / Good Day",
+    "es": "Hola / Buenos días",
+    "de": "Servus / Grüß Gott",
+    "context": "'Servus' is the classic friendly Bavarian greeting. 'Grüß Gott' is more formal."
+  },
+  {
+    "category": "Essentials",
+    "en": "Thank you very much",
+    "es": "Muchas gracias",
+    "de": "Vielen Dank / Dangschee",
+    "context": "'Dangschee' is Bavarian dialect. Locals love it if you try it!"
+  },
+  {
+    "category": "Essentials",
+    "en": "Do you speak English?",
+    "es": "¿Hablas inglés?",
+    "de": "Sprechen Sie Englisch?",
+    "context": "Always polite to ask in German first."
+  },
+  {
+    "category": "Essentials",
+    "en": "Help!",
+    "es": "¡Ayuda!",
+    "de": "Hilfe!",
+    "context": "Use in emergencies."
+  },
+  {
+    "category": "Dining",
+    "en": "The bill, please",
+    "es": "La cuenta, por favor",
+    "de": "Die Rechnung, bitte",
+    "context": "In Germany, you usually pay at the table."
+  },
+  {
+    "category": "Dining",
+    "en": "A beer, please",
+    "es": "Una cerveza, por favor",
+    "de": "Ein Helles, bitte / Eine Maß, bitte",
+    "context": "In Munich, 'Bier' usually means 'Helles' (Lager). A 'Maß' is a 1-liter glass."
+  },
+  {
+    "category": "Dining",
+    "en": "Is this vegetarian?",
+    "es": "¿Esto es vegetariano?",
+    "de": "Ist das vegetarisch?",
+    "context": "Munich has great veg options, but traditional places use lots of bacon (Speck)."
+  },
+  {
+    "category": "Dining",
+    "en": "Water (Still / Sparkling)",
+    "es": "Agua (Sin gas / Con gas)",
+    "de": "Wasser (Still / Sprudel)",
+    "context": "If you just ask for water, you will get sparkling (Sprudel) by default."
+  },
+  {
+    "category": "Transport",
+    "en": "Where is the train station?",
+    "es": "¿Dónde está la estación de tren?",
+    "de": "Wo ist der Bahnhof?",
+    "context": "Look for signs marked 'Hbf' (Hauptbahnhof - Central Station)."
+  },
+  {
+    "category": "Transport",
+    "en": "Does this go to...?",
+    "es": "¿Esto va a...?",
+    "de": "Fährt dieser Zug nach...?",
+    "context": "Useful for checking S-Bahn directions."
+  },
+  {
+    "category": "Shopping",
+    "en": "How much does it cost?",
+    "es": "¿Cuánto cuesta?",
+    "de": "Wie viel kostet das?",
+    "context": "Cash is still king in many small Munich shops!"
+  },
+  {
+    "category": "Greetings & Basics",
+    "en": "Hello / Good morning",
+    "es": "Hola / Buenos días",
+    "de": "Hallo / Guten Morgen",
+    "context": "Everyday greeting; use 'Guten Morgen' before ~ midday."
+  },
+  {
+    "category": "Greetings & Basics",
+    "en": "Good evening / Good night",
+    "es": "Buenas tardes / Buenas noches",
+    "de": "Guten Abend / Gute Nacht",
+    "context": "Use 'Guten Abend' in the evening; 'Gute Nacht' when leaving for bed."
+  },
+  {
+    "category": "Greetings & Basics",
+    "en": "Please",
+    "es": "Por favor",
+    "de": "Bitte",
+    "context": "Also means 'you're welcome' depending on context."
+  },
+  {
+    "category": "Greetings & Basics",
+    "en": "Thank you",
+    "es": "Gracias",
+    "de": "Danke",
+    "context": "Polite and universally useful; 'Danke schön' is slightly more formal."
+  },
+  {
+    "category": "Greetings & Basics",
+    "en": "Excuse me / Sorry",
+    "es": "Perdón / Disculpe",
+    "de": "Entschuldigung",
+    "context": "Useful to get someone's attention or apologize for bumping."
+  },
+
+  {
+    "category": "Introducing Yourself",
+    "en": "My name is ...",
+    "es": "Me llamo ...",
+    "de": "Ich heiße ...",
+    "context": "Basic intro."
+  },
+  {
+    "category": "Introducing Yourself",
+    "en": "I don't speak German",
+    "es": "No hablo alemán",
+    "de": "Ich spreche kein Deutsch",
+    "context": "Say this up front; many people will then try English."
+  },
+  {
+    "category": "Introducing Yourself",
+    "en": "Do you speak English?",
+    "es": "¿Habla usted inglés?",
+    "de": "Sprechen Sie Englisch?",
+    "context": "Formal phrasing; in casual situations you can say 'Sprichst du Englisch?' to younger people."
+  },
+
+  {
+    "category": "Directions & Getting Around",
+    "en": "How do I get to the main train station (Hauptbahnhof)?",
+    "es": "¿Cómo llego a la estación central (Hauptbahnhof)?",
+    "de": "Wie komme ich zum Hauptbahnhof?",
+    "context": "Ask for directions to Munich Hauptbahnhof (central station)."
+  },
+  {
+    "category": "Directions & Getting Around",
+    "en": "Where is the U-Bahn / S-Bahn / tram stop?",
+    "es": "¿Dónde está la parada de metro (U-Bahn) / tren de cercanías (S-Bahn) / tranvía?",
+    "de": "Wo ist die U-Bahn / S-Bahn / Tram-Haltestelle?",
+    "context": "Useful when navigating public transport."
+  },
+  {
+    "category": "Directions & Getting Around",
+    "en": "Which ticket do I need? / Where do I buy a ticket?",
+    "es": "¿Qué billete necesito? / ¿Dónde compro un billete?",
+    "de": "Welches Ticket brauche ich? / Wo kann ich ein Ticket kaufen?",
+    "context": "MVV has zones and different day/strip tickets — ask staff if unsure. Tickets must be validated (entwertet) before travel. :contentReference[oaicite:5]{index=5}"
+  },
+  {
+    "category": "Directions & Getting Around",
+    "en": "Do I need to validate (stamp) my ticket?",
+    "es": "¿Tengo que validar (sellar) mi billete?",
+    "de": "Muss ich mein Ticket entwerten?",
+    "context": "In many MVV cases, single/strip/day tickets must be stamped at machines before boarding. :contentReference[oaicite:6]{index=6}"
+  },
+  {
+    "category": "Directions & Getting Around",
+    "en": "How long does it take to walk there?",
+    "es": "¿Cuánto se tarda caminando?",
+    "de": "Wie lange braucht man zu Fuß dorthin?",
+    "context": "Good for estimating walking times."
+  },
+  {
+    "category": "Directions & Getting Around",
+    "en": "Is this the right platform for the train to ... ?",
+    "es": "¿Es este el andén correcto para el tren a ... ?",
+    "de": "Ist das der richtige Bahnsteig für den Zug nach ... ?",
+    "context": "Ask before boarding—platforms can change."
+  },
+
+  {
+    "category": "Accommodation / Hotel",
+    "en": "I have a reservation under the name ...",
+    "es": "Tengo una reserva a nombre de ...",
+    "de": "Ich habe eine Reservierung auf den Namen ...",
+    "context": "At hotel reception or guesthouse."
+  },
+  {
+    "category": "Accommodation / Hotel",
+    "en": "Do you have free Wi-Fi?",
+    "es": "¿Tienen Wi-Fi gratis?",
+    "de": "Haben Sie kostenloses WLAN?",
+    "context": "Ask about network name ('Netzwerkname') and password ('Passwort')."
+  },
+  {
+    "category": "Accommodation / Hotel",
+    "en": "What time is check-in / check-out?",
+    "es": "¿A qué hora es el check-in / check-out?",
+    "de": "Wann ist der Check-in / Check-out?",
+    "context": "Practical for planning arrival/departure."
+  },
+  {
+    "category": "Accommodation / Hotel",
+    "en": "Can I store my luggage here after check-out?",
+    "es": "¿Puedo dejar mi equipaje aquí después del check-out?",
+    "de": "Kann ich nach dem Check-out mein Gepäck hier aufbewahren?",
+    "context": "Many hotels offer luggage storage."
+  },
+
+  {
+    "category": "Eating & Restaurants",
+    "en": "A table for two, please",
+    "es": "Una mesa para dos, por favor",
+    "de": "Ein Tisch für zwei, bitte",
+    "context": "Basic restaurant request."
+  },
+  {
+    "category": "Eating & Restaurants",
+    "en": "Can I see the menu, please?",
+    "es": "¿Puedo ver el menú, por favor?",
+    "de": "Kann ich bitte die Speisekarte sehen?",
+    "context": "Ask for the menu if it isn't offered."
+  },
+  {
+    "category": "Eating & Restaurants",
+    "en": "Do you have vegetarian / vegan options?",
+    "es": "¿Tienen opciones vegetarianas / veganas?",
+    "de": "Haben Sie vegetarische / vegane Optionen?",
+    "context": "Useful — many places now offer options."
+  },
+  {
+    "category": "Eating & Restaurants",
+    "en": "I'm allergic to ... (e.g. nuts, gluten, dairy)",
+    "es": "Soy alérgico a ... (por ejemplo: frutos secos, gluten, lácteos)",
+    "de": "Ich bin allergisch gegen ... (z. B. Nüsse, Gluten, Milchprodukte)",
+    "context": "Be explicit — follow by 'Ist das im Gericht?' (Is that in the dish?)."
+  },
+  {
+    "category": "Eating & Restaurants",
+    "en": "Could I get the bill, please?",
+    "es": "La cuenta, por favor",
+    "de": "Die Rechnung, bitte",
+    "context": "Say this when ready to pay. In Germany you normally tell the server the amount to pay when handing cash."
+  },
+  {
+    "category": "Eating & Restaurants",
+    "en": "Do you accept cards?",
+    "es": "¿Aceptan tarjetas?",
+    "de": "Akzeptieren Sie Karten?",
+    "context": "Not all small places accept cards — carry cash. :contentReference[oaicite:7]{index=7}"
+  },
+  {
+    "category": "Eating & Restaurants",
+    "en": "Keep the change",
+    "es": "Quédese el cambio",
+    "de": "Stimmt so",
+    "context": "Common way to tip when paying in cash; you state the rounded total when handing over money."
+  },
+
+  {
+    "category": "Shopping",
+    "en": "How much does it cost?",
+    "es": "¿Cuánto cuesta?",
+    "de": "Wie viel kostet das?",
+    "context": "Basic shopping question."
+  },
+  {
+    "category": "Shopping",
+    "en": "Do you have this in a different size / color?",
+    "es": "¿Tienen esto en otra talla / color?",
+    "de": "Haben Sie das in einer anderen Größe / Farbe?",
+    "context": "Useful in clothes shops."
+  },
+  {
+    "category": "Shopping",
+    "en": "Can I return this if it doesn't fit?",
+    "es": "¿Puedo devolver esto si no me queda bien?",
+    "de": "Kann ich das zurückgeben, wenn es nicht passt?",
+    "context": "Check store return policy."
+  },
+  {
+    "category": "Shopping",
+    "en": "Do you offer VAT refund (Tax free)?",
+    "es": "¿Ofrecen devolución del IVA (tax free)?",
+    "de": "Bieten Sie eine Mehrwertsteuerrückerstattung (Tax-Free) an?",
+    "context": "Ask in bigger stores if you're non-EU and spending enough for tax-free shopping."
+  },
+
+  {
+    "category": "Money & Bank",
+    "en": "Where is the nearest ATM?",
+    "es": "¿Dónde está el cajero automático más cercano?",
+    "de": "Wo ist der nächste Geldautomat?",
+    "context": "Carry cards and a little cash; watch ATM fees."
+  },
+  {
+    "category": "Money & Bank",
+    "en": "Can I pay by contactless / Apple Pay?",
+    "es": "¿Puedo pagar con contactless / Apple Pay?",
+    "de": "Kann ich kontaktlos / mit Apple Pay bezahlen?",
+    "context": "Increasingly supported but check before ordering."
+  },
+
+  {
+    "category": "Emergency & Health",
+    "en": "Call an ambulance! / I need a doctor!",
+    "es": "¡Llamen a una ambulancia! / ¡Necesito un médico!",
+    "de": "Rufen Sie einen Krankenwagen! / Ich brauche einen Arzt!",
+    "context": "In life-threatening emergencies dial 112 in Germany. :contentReference[oaicite:8]{index=8}"
+  },
+  {
+    "category": "Emergency & Health",
+    "en": "I have lost my passport",
+    "es": "He perdido mi pasaporte",
+    "de": "Ich habe meinen Reisepass verloren",
+    "context": "Head to police (110) to report a lost/stolen passport. :contentReference[oaicite:9]{index=9}"
+  },
+  {
+    "category": "Emergency & Health",
+    "en": "Where is the nearest pharmacy (Apotheke)?",
+    "es": "¿Dónde está la farmacia (Apotheke) más cercana?",
+    "de": "Wo ist die nächste Apotheke?",
+    "context": "If it's outside hours, ask for the 'Notdienst' (emergency pharmacy). :contentReference[oaicite:10]{index=10}"
+  },
+  {
+    "category": "Emergency & Health",
+    "en": "I need medicine for ... (fever, stomach, allergy)",
+    "es": "Necesito medicina para ... (fiebre, estómago, alergia)",
+    "de": "Ich brauche Medikamente gegen ... (Fieber, Magen, Allergie)",
+    "context": "Ask the pharmacist; prescriptions asked for certain drugs."
+  },
+
+  {
+    "category": "Transport - Taxi & Ride",
+    "en": "Can you take me to this address, please?",
+    "es": "¿Puede llevarme a esta dirección, por favor?",
+    "de": "Können Sie mich bitte zu dieser Adresse bringen?",
+    "context": "Have the address written or on your phone to show the driver."
+  },
+  {
+    "category": "Transport - Taxi & Ride",
+    "en": "How much will that cost approximately?",
+    "es": "¿Cuánto costará aproximadamente?",
+    "de": "Wie viel wird das ungefähr kosten?",
+    "context": "Good to ask for an estimate before starting the taxi."
+  },
+
+  {
+    "category": "Numbers / Time / Dates",
+    "en": "What time is it?",
+    "es": "¿Qué hora es?",
+    "de": "Wie spät ist es?",
+    "context": "Useful when you don't have a phone handy."
+  },
+  {
+    "category": "Numbers / Time / Dates",
+    "en": "Today / Tomorrow / Yesterday",
+    "es": "Hoy / Mañana / Ayer",
+    "de": "Heute / Morgen / Gestern",
+    "context": "Basic time words for planning."
+  },
+  {
+    "category": "Numbers / Time / Dates",
+    "en": "Monday / Tuesday / ... / Sunday",
+    "es": "Lunes / Martes / ... / Domingo",
+    "de": "Montag / Dienstag / ... / Sonntag",
+    "context": "Handy for schedules and opening hours."
+  },
+
+  {
+    "category": "Asking for Help",
+    "en": "Can you help me, please?",
+    "es": "¿Puede ayudarme, por favor?",
+    "de": "Können Sie mir bitte helfen?",
+    "context": "General help request — people usually respond positively."
+  },
+  {
+    "category": "Asking for Help",
+    "en": "I am lost",
+    "es": "Estoy perdido",
+    "de": "Ich habe mich verlaufen",
+    "context": "Use with map or address to ask directions."
+  },
+
+  {
+    "category": "Services (Post / Phone / SIM)",
+    "en": "Where can I buy a prepaid SIM card?",
+    "es": "¿Dónde puedo comprar una tarjeta SIM prepago?",
+    "de": "Wo kann ich eine Prepaid-SIM kaufen?",
+    "context": "Many phone shops and supermarkets sell SIMs; have your passport for registration if required."
+  },
+  {
+    "category": "Services (Post / Phone / SIM)",
+    "en": "Where is the post office?",
+    "es": "¿Dónde está la oficina de correos?",
+    "de": "Wo ist die Post?",
+    "context": "Useful for postcards, parcels and stamps."
+  },
+
+  {
+    "category": "Politeness & Small Talk",
+    "en": "Nice to meet you",
+    "es": "Encantado/a de conocerte",
+    "de": "Freut mich, Sie kennenzulernen",
+    "context": "Formal phrasing for meeting someone."
+  },
+  {
+    "category": "Politeness & Small Talk",
+    "en": "Could I ask you a quick question?",
+    "es": "¿Puedo hacerle una pregunta rápida?",
+    "de": "Darf ich Ihnen kurz eine Frage stellen?",
+    "context": "Polite opener for strangers."
+  },
+
+  {
+    "category": "Cultural / Practical Tips",
+    "en": "Is smoking allowed here?",
+    "es": "¿Se permite fumar aquí?",
+    "de": "Darf man hier rauchen?",
+    "context": "Smoking rules vary — many indoor public places are non-smoking."
+  },
+  {
+    "category": "Cultural / Practical Tips",
+    "en": "Do you have vegetarian options?",
+    "es": "¿Tienen opciones vegetarianas?",
+    "de": "Haben Sie vegetarische Optionen?",
+    "context": "Repeat — many Bavarian dishes are meat heavy; ask for veggie."
+  },
+
+  {
+    "category": "Useful Single Words",
+    "en": "Entrance / Exit / Open / Closed",
+    "es": "Entrada / Salida / Abierto / Cerrado",
+    "de": "Eingang / Ausgang / Offen / Geschlossen",
+    "context": "Short words that appear on signs."
+  },
+  {
+    "category": "Useful Single Words",
+    "en": "Toilet",
+    "es": "Baño",
+    "de": "Toilette / WC",
+    "context": "Signs often show 'WC' or 'Toilette'."
+  },
+
+  {
+    "category": "Finals",
+    "en": "Could you write that down, please?",
+    "es": "¿Podría escribirlo, por favor?",
+    "de": "Könnten Sie das bitte aufschreiben?",
+    "context": "Helpful if pronunciation is hard — show the written text to locals."
+  },
+  {
+    "category": "Finals",
+    "en": "Thank you very much / That was very helpful",
+    "es": "Muchas gracias / Eso fue muy útil",
+    "de": "Vielen Dank / Das war sehr hilfreich",
+    "context": "Polite closing that leaves a good impression."
+  },
+  {
+    "category": "Courtship",
+    "en": "Hi, may I join you?",
+    "es": "Hola, ¿puedo acompañarte?",
+    "de": "Hallo, darf ich mich dazusetzen?",
+    "context": "Polite and non-intrusive way to start a conversation in a bar or café."
+  },
+  {
+    "category": "Courtship",
+    "en": "Can I buy you a drink?",
+    "es": "¿Puedo invitarte a una bebida?",
+    "de": "Darf ich dir ein Getränk ausgeben?",
+    "context": "Common and acceptable, especially in bars or Biergärten."
+  },
+  {
+    "category": "Courtship",
+    "en": "You have a beautiful smile.",
+    "es": "Tienes una sonrisa muy bonita.",
+    "de": "Du hast ein wunderschönes Lächeln.",
+    "context": "A sincere compliment; Munich locals appreciate authenticity."
+  },
+  {
+    "category": "Courtship",
+    "en": "Would you like to dance?",
+    "es": "¿Quieres bailar?",
+    "de": "Möchtest du tanzen?",
+    "context": "Useful in clubs, fest tents, or live-music settings."
+  },
+  {
+    "category": "Courtship",
+    "en": "Are you here alone or with friends?",
+    "es": "¿Estás aquí solo/a o con amigos?",
+    "de": "Bist du alleine hier oder mit Freunden?",
+    "context": "Shows interest while respecting social boundaries."
+  },
+  {
+    "category": "Courtship",
+    "en": "May I have your phone number?",
+    "es": "¿Me das tu número de teléfono?",
+    "de": "Kann ich deine Telefonnummer haben?",
+    "context": "Direct but acceptable; Germans appreciate straightforwardness."
+  },
+  {
+    "category": "Courtship",
+    "en": "Would you like to go for a walk with me?",
+    "es": "¿Te gustaría dar un paseo conmigo?",
+    "de": "Möchtest du mit mir spazieren gehen?",
+    "context": "A classic Munich-friendly date idea; rivers and parks are popular."
+  },
+  {
+    "category": "Courtship",
+    "en": "Would you like to meet again?",
+    "es": "¿Te gustaría que nos viéramos otra vez?",
+    "de": "Möchtest du dich wieder mit mir treffen?",
+    "context": "Polite, non-pressuring way to propose a second meeting."
+  },
+  {
+    "category": "Courtship",
+    "en": "I really enjoyed talking with you.",
+    "es": "Disfruté mucho hablar contigo.",
+    "de": "Ich habe das Gespräch mit dir sehr genossen.",
+    "context": "Warm, respectful way to close an encounter."
+  },
+  {
+    "category": "Courtship",
+    "en": "No worries, all good!",
+    "es": "¡No pasa nada, todo bien!",
+    "de": "Kein Problem, alles gut!",
+    "context": "Useful when something awkward happens or communication breaks."
+  },
+  {
+    "category": "Courtship-Safety",
+    "en": "Please stop, I'm not interested.",
+    "es": "Por favor, para, no estoy interesado/a.",
+    "de": "Bitte hör auf, ich bin nicht interessiert.",
+    "context": "Clear communication—Germans respect direct statements."
+  },
+  {
+    "category": "Courtship-Safety",
+    "en": "I would like to go home now.",
+    "es": "Me gustaría irme a casa ahora.",
+    "de": "Ich möchte jetzt nach Hause gehen.",
+    "context": "Useful when you want to end an interaction politely."
+  },
+  {
+    "category": "Courtship-Safety",
+    "en": "Do you know where the taxi stand is?",
+    "es": "¿Sabes dónde está la parada de taxis?",
+    "de": "Weißt du, wo der Taxistand ist?",
+    "context": "Useful late at night after bars or clubs."
+  },
+  {
+    "category": "Courtship-Safety",
+    "en": "I need help.",
+    "es": "Necesito ayuda.",
+    "de": "Ich brauche Hilfe.",
+    "context": "Essential in uncomfortable or unsafe situations."
+  }
+]

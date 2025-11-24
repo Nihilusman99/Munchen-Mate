@@ -1,0 +1,16 @@
+{
+  "name": "München Mate",
+  "short_name": "München",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#E0FAFA",
+  "theme_color": "#008080",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

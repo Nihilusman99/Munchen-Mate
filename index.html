@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>München Mate</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <meta name="theme-color" content="#008080">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="brand">
+            <span class="brand-icon">M</span>
+            München Mate
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+            </ul>
+        <div class="sidebar-footer">
+            <span class="material-icons" style="font-size: 1.2rem;">code</span> View on GitHub
+        </div>
+    </aside>
+
+    <main class="main-content">
+        
+        <div id="view-dashboard" class="view-section active">
+            <div class="page-header">
+                <h1>Welcome to München Mate!</h1>
+                <p>Your friendly assistant for exploring Munich. What would you like to do today?</p>
+            </div>
+            <div class="dashboard-grid" id="dashboard-grid">
+                </div>
+        </div>
+
+        <div id="view-itinerary" class="view-section">
+            <div class="page-header">
+                <h1>Dynamic Itinerary Creator</h1>
+                <p>Let us craft a personalized day-by-day plan for your trip to Munich based on your preferences.</p>
+            </div>
+            
+            <div class="itinerary-layout">
+                <div class="preferences-panel">
+                    <h2 class="panel-title">Trip Preferences</h2>
+                    <p class="panel-subtitle">Tell us about your ideal trip.</p>
+
+                    <div class="form-group">
+                        <label class="form-label">Trip Duration (days)</label>
+                        <input type="number" id="trip-duration" class="form-input" value="3" min="1" max="14">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Budget</label>
+                        <select class="form-select">
+                            <option>Budget-Friendly</option>
+                            <option selected>Medium</option>
+                            <option>Luxury</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Pace / Energy Level</label>
+                        <select id="trip-pace" class="form-select">
+                            <option value="2">Relaxed (2 items/day)</option>
+                            <option value="3" selected>Balanced (3 items/day)</option>
+                            <option value="4">Packed (4 items/day)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Interests</label>
+                       <div class="checkbox-grid">
+                            <label class="checkbox-item"><input type="checkbox" class="interest-check" value="art"> Art & Culture</label>
+                            <label class="checkbox-item"><input type="checkbox" class="interest-check" value="history"> History</label>
+                            <label class="checkbox-item"><input type="checkbox" class="interest-check" value="food"> Food & Drink</label>
+                            <label class="checkbox-item"><input type="checkbox" class="interest-check" value="nightlife"> Nightlife</label>
+                            <label class="checkbox-item"><input type="checkbox" class="interest-check" value="shopping"> Shopping</label>
+                            <label class="checkbox-item"><input type="checkbox" class="interest-check" value="outdoor"> Outdoors</label>
+                        </div>
+                    </div>
+
+                    <button class="btn-create" onclick="generateItinerary()">Create My Itinerary</button>
+                </div>
+
+                <div class="result-panel" id="itinerary-result">
+                    <div class="placeholder-text">Your itinerary will appear here</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="view-packing" class="view-section">
+            <div class="page-header">
+                <h1>Personalized Packing List</h1>
+                <p>Generate a packing list tailored to your trip's duration, activities, and style.</p>
+            </div>
+            
+            <div class="itinerary-layout">
+                <div class="preferences-panel">
+                    <h2 class="panel-title">Packing Preferences</h2>
+                    <p class="panel-subtitle">Details for your personalized list.</p>
+
+                    <div class="form-group">
+                        <label class="form-label">Trip Duration (days)</label>
+                        <input type="number" id="pack-days" class="form-input" value="4" min="1">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Average Temperature (°C)</label>
+                        <input type="number" id="pack-temp" class="form-input" value="5" placeholder="e.g. 5">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Conditions</label>
+                        <div class="checkbox-grid">
+                            <label class="checkbox-item"><input type="checkbox" id="pack-rain"> Rain/Snow?</label>
+                            <label class="checkbox-item"><input type="checkbox" id="pack-sun" checked> Sunny?</label>
+                        </div>
+                    </div>
+
+                   <div class="form-group">
+                        <label class="form-label">Style Preference</label>
+                        <div class="radio-group">
+                            <label class="radio-item"><input type="radio" name="style" value="casual" checked> Casual</label>
+                            <label class="radio-item"><input type="radio" name="style" value="formal"> Business / Fancy</label>
+                        </div>
+                    </div>
+
+                    <button class="btn-create" onclick="generatePackingList()">Generate Packing List</button>
+                </div>
+
+                <div class="result-panel" id="packing-result">
+                    <div class="placeholder-text">Your packing list will appear here</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="view-suggestions" class="view-section">
+            <div class="page-header">
+                <h1>Munich Suggestions</h1>
+                <p>Discover some of our favorite spots around the city.</p>
+            </div>
+            
+            <div class="suggestions-grid" id="suggestions-container">
+                </div>
+        </div>
+
+        <div id="view-translator" class="view-section">
+            <div class="page-header">
+                <h1>Real-Time Translator</h1>
+                <p>Translate English phrases to German and get explanations of cultural context and usage in Munich.</p>
+            </div>
+            
+            <div class="itinerary-layout">
+                <div class="preferences-panel">
+                    <h2 class="panel-title">Phrase to Translate</h2>
+                    <p class="panel-subtitle">Enter an English phrase.</p>
+
+                    <div class="form-group">
+                        <label class="form-label">English Phrase</label>
+                        <textarea class="form-input" id="translator-input" rows="4" placeholder="Where can I find the best pretzel?"></textarea>
+                    </div>
+
+                    <button class="btn-create" onclick="generateTranslation()">Translate</button>
+                </div>
+
+                <div class="result-panel" id="translator-result">
+                    <div class="placeholder-text">Translation will appear here</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="view-transport" class="view-section">
+            <div class="page-header">
+                <h1>Getting Around Munich</h1>
+                <p>Munich has a world-class public transport system (MVG). Here's what you need to know.</p>
+            </div>
+            
+            <div class="transport-container">
+
+                <div class="preferences-panel" style="flex: none; width: 100%;"><div class="info-card">
+                    <h2 class="panel-title">Route Finder</h2>
+                    <p class="panel-subtitle">Select a popular connection to see the best route.</p>
+                       
+                        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                    <div class="form-group" style="flex: 1;">
+                        <label class="form-label">Start</label>
+                        <select id="transport-from" class="form-select">
+                            <option value="">Select Origin...</option>
+                            <option value="Munich Airport (MUC)">Munich Airport (MUC)</option>
+                            <option value="Pfarrkirchen">Pfarrkirchen</option>
+                            <option value="City Center (Marienplatz)">City Center (Marienplatz)</option>
+                            <option value="Munich Hbf (Central Station)">Munich Hbf (Central Station)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" style="flex: 1;">
+                        <label class="form-label">Destination</label>
+                        <select id="transport-to" class="form-select">
+                            <option value="">Select Destination...</option>
+                            <option value="City Center (Marienplatz)">City Center (Marienplatz)</option>
+                            <option value="Munich Airport (MUC)">Munich Airport (MUC)</option>
+                            <option value="Neuschwanstein Castle (Füssen)">Neuschwanstein Castle</option>
+                            <option value="Salzburg (Austria)">Salzburg (Austria)</option>
+                            <option value="BMW Welt / Olympic Park">BMW Welt / Olympic Park</option>
+                            <option value="Allianz Arena">Allianz Arena</option>
+                            <option value="Munich Hbf (Central Station)">Munich Hbf (Central Station)</option>
+                            <option value="Therme Erding (Spa)">Therme Erding</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group" style="display: flex; align-items: flex-end;">
+                        <button class="btn-create" onclick="findRoute()" style="height: 42px; padding: 0 30px;">Search</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="transport-result" class="result-panel" style="min-height: 200px; display: flex; align-items: center; justify-content: center;">
+                <div class="placeholder-text" style="font-size: 1.5rem;">Select a route above</div>
+            </div>
+
+            
+            <div class="info-card">
+                <div class="info-card-title">
+                    <span class="material-icons">map</span> Network Tips
+                </div>
+                <ul style="margin-left: 20px; line-height: 1.8; color: #444;">
+                    <li><strong>Validation:</strong> Always stamp your ticket in the blue machines before boarding!</li>
+                    <li><strong>The "Stammstrecke":</strong> All S-Bahn lines run through the same tunnel between <em>Donnersbergerbrücke</em> and <em>Ostbahnhof</em>. If you are in the center, any train usually gets you to the next major stop.</li>
+                    <li><strong>Zone M:</strong> Covers the entire city center. You only need broader zones for the Airport (Zone 5) or distant lakes.</li>
+                </ul>
+            </div>
+                </div>
+            </div>
+
+            <div class="info-card" style="margin-top: 30px;">
+                <div class="info-card-title">
+                    <span class="material-icons">map</span> Offline Network Maps
+                </div>
+                <p style="margin-bottom: 15px; color: #666;">
+                    High-res maps for your journey. Click to view full size.
+                </p>
+
+                <div class="maps-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                    <div class="map-thumbnail" onclick="openMap('city')">
+                        <div class="map-icon"><span class="material-icons">subway</span></div>
+                        <span>Munich City (MVV)</span>
+                    </div>
+                    
+                    <div class="map-thumbnail" onclick="openMap('region')">
+                        <div class="map-icon"><span class="material-icons">train</span></div>
+                        <span>Bavaria (Pfarrkirchen)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="map-viewer" class="map-modal" onclick="closeMap()">
+                <span class="close-map-btn">&times;</span>
+                <img id="map-viewer-img" src="" alt="Network Map">
+                <div class="map-caption">Pinch or scroll to zoom</div>
+            </div>
+
+        </div>
+
+        <div id="view-expenses" class="view-section">
+            <div class="page-header">
+                <h1>Expense Tracker</h1>
+                <p>Keep track of your spending during your trip in Munich.</p>
+            </div>
+            
+            <div class="itinerary-layout">
+                <div class="preferences-panel">
+                    <h2 class="panel-title" style="display: flex; align-items: center; gap:10px;">
+                        <span class="material-icons">add_circle_outline</span> Add Expense
+                    </h2>
+                    
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label class="form-label">Description</label>
+                        <input type="text" id="expense-desc" class="form-input" placeholder="e.g., Museum ticket">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Amount (€)</label>
+                        <input type="number" id="expense-amount" class="form-input" placeholder="0" min="0" step="0.01">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Category</label>
+                        <input type="text" id="expense-cat" class="form-input" placeholder="e.g., Entertainment">
+                    </div>
+
+                    <button class="btn-create" onclick="addExpense()">Add Expense</button>
+                </div>
+
+                <div class="result-panel expense-panel">
+                    <div class="expense-table-container">
+                        <h2 class="panel-title">Expense Log</h2>
+                        
+                        <table class="expense-table">
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th>Category</th>
+                                    <th>Amount</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="expense-table-body">
+                                <tr>
+                                    <td colspan="4" style="text-align: center; padding: 30px; color: #999;">
+                                        No expenses logged yet.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="expense-total" id="expense-total">
+                            Total: €0.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="js/app.js"></script>
+    
+    <script>
+   
+    // Register Service Worker for Offline & Install
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./sw.js')
+                .then(reg => console.log('App Ready for Offline usage!', reg.scope))
+                .catch(err => console.log('SW failed: ', err));
+        });
+    }
+</script>
+</body>
+</html>

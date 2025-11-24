@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "from": "Munich Airport (MUC)",
+    "to": "City Center (Marienplatz)",
+    "mode": "S-Bahn",
+    "line": "S1 / S8",
+    "color": "#4CAF50",
+    "duration": "40 min",
+    "frequency": "Every 10 min",
+    "ticket_type": "Airport-City-Day-Ticket",
+    "stops": ["Flughafen Terminal", "Ostbahnhof", "Isartor", "Marienplatz", "Karlsplatz (Stachus)"]
+  },
+  {
+    "id": 2,
+    "from": "City Center (Marienplatz)",
+    "to": "Munich Airport (MUC)",
+    "mode": "S-Bahn",
+    "line": "S1 / S8",
+    "color": "#4CAF50",
+    "duration": "40 min",
+    "frequency": "Every 10 min",
+    "ticket_type": "Airport-City-Day-Ticket",
+    "stops": ["Marienplatz", "Ostbahnhof", "Flughafen Terminal"]
+  },
+  {
+    "id": 3,
+    "from": "City Center (Marienplatz)",
+    "to": "Allianz Arena",
+    "mode": "U-Bahn",
+    "line": "U6 (Direction Garching)",
+    "color": "#2196F3",
+    "duration": "16 min",
+    "frequency": "Every 5 min",
+    "ticket_type": "Single Ticket (Zone M)",
+    "stops": ["Marienplatz", "Odeonsplatz", "Münchner Freiheit", "Fröttmaning (Arena)"]
+  },
+  {
+    "id": 4,
+    "from": "City Center (Marienplatz)",
+    "to": "BMW Welt / Olympic Park",
+    "mode": "U-Bahn",
+    "line": "U3 (Direction Moosach)",
+    "color": "#E91E63",
+    "duration": "15 min",
+    "frequency": "Every 5 min",
+    "ticket_type": "Single Ticket (Zone M)",
+    "stops": ["Marienplatz", "Odeonsplatz", "Olympiazentrum"]
+  },
+  {
+    "id": 5,
+    "from": "Munich Hbf (Central Station)",
+    "to": "Neuschwanstein Castle (Füssen)",
+    "mode": "Regional Train (BRB)",
+    "line": "RE 70 / 72",
+    "color": "#DB3E00",
+    "duration": "2h 05m",
+    "frequency": "Hourly",
+    "ticket_type": "Bayern-Ticket (Best Value!)",
+    "stops": ["München Hbf", "Kaufering", "Buchloe", "Füssen Station"]
+  },
+  {
+    "id": 6,
+    "from": "Munich Hbf (Central Station)",
+    "to": "Salzburg (Austria)",
+    "mode": "Regional Train (BRB)",
+    "line": "RE 5",
+    "color": "#DB3E00",
+    "duration": "1h 45m",
+    "frequency": "Hourly",
+    "ticket_type": "Bayern-Ticket (Valid to Salzburg!)",
+    "stops": ["München Hbf", "Ostbahnhof", "Rosenheim", "Salzburg Hbf"]
+  },
+  {
+    "id": 7,
+    "from": "City Center (Marienplatz)",
+    "to": "Therme Erding (Spa)",
+    "mode": "S-Bahn",
+    "line": "S2 (Direction Erding)",
+    "color": "#4CAF50",
+    "duration": "50 min",
+    "frequency": "Every 20 min",
+    "ticket_type": "Zone M-5 Ticket",
+    "stops": ["Marienplatz", "Ostbahnhof", "Altenerding (Therme)"]
+  },
+  {
+    "id": 8,
+    "from": "Pfarrkirchen",
+    "to": "Munich Hbf (Central Station)",
+    "mode": "Regional Train",
+    "line": "RB 46 -> RE 4",
+    "color": "#DB3E00",
+    "duration": "Approx. 1h 35m",
+    "frequency": "Hourly (Change at Mühldorf)",
+    "ticket_type": "Bayern-Ticket (Valid after 9am)",
+    "stops": ["Pfarrkirchen", "Mühldorf (Obb)", "München Ost", "München Hbf"]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  { "item": "Passport & ID", "category": "Essentials", "min_temp": -50, "max_temp": 50, "rule": "fixed" },
+  { "item": "Power Adapter (Type F)", "category": "Electronics", "min_temp": -50, "max_temp": 50, "rule": "fixed" },
+  { "item": "Heavy Winter Coat", "category": "Clothing", "min_temp": -30, "max_temp": 8, "rule": "fixed" },
+  { "item": "Thermal Underwear (Top & Bottom)", "category": "Clothing", "min_temp": -30, "max_temp": 5, "rule": "1_per_2_days" },
+  { "item": "Wool Beanie & Gloves", "category": "Accessories", "min_temp": -30, "max_temp": 8, "rule": "fixed" },
+  { "item": "Scarf", "category": "Accessories", "min_temp": -30, "max_temp": 12, "rule": "fixed" },
+  { "item": "Light Jacket / Windbreaker", "category": "Clothing", "min_temp": 10, "max_temp": 20, "rule": "fixed" },
+  { "item": "T-Shirts (Base Layer)", "category": "Clothing", "min_temp": -30, "max_temp": 40, "rule": "1_per_day" },
+  { "item": "Sweater / Hoodie (Mid Layer)", "category": "Clothing", "min_temp": -30, "max_temp": 15, "rule": "1_per_3_days" },
+  { "item": "Jeans / Trousers", "category": "Clothing", "min_temp": -30, "max_temp": 25, "rule": "1_per_3_days" },
+  { "item": "Shorts", "category": "Clothing", "min_temp": 22, "max_temp": 40, "rule": "1_per_3_days" },
+  { "item": "Waterproof Boots", "category": "Shoes", "min_temp": -30, "max_temp": 5, "rule": "fixed" },
+  { "item": "Comfortable Walking Sneakers", "category": "Shoes", "min_temp": 5, "max_temp": 30, "rule": "fixed" },
+  { "item": "Underwear", "category": "Clothing", "min_temp": -50, "max_temp": 50, "rule": "1_per_day" },
+  { "item": "Socks (Wool/Warm)", "category": "Clothing", "min_temp": -30, "max_temp": 10, "rule": "1_per_day" },
+  { "item": "Socks (Cotton/Light)", "category": "Clothing", "min_temp": 11, "max_temp": 40, "rule": "1_per_day" },
+  { "item": "Travel Umbrella", "category": "Accessories", "min_temp": -50, "max_temp": 50, "condition": "rain", "rule": "fixed" },
+  { "item": "Sunglasses", "category": "Accessories", "min_temp": -50, "max_temp": 50, "condition": "sun", "rule": "fixed" },
+  { "item": "Dress Shirt / Blouse", "category": "Clothing", "min_temp": -50, "max_temp": 50, "style": "formal", "rule": "1_per_trip" }
+]
